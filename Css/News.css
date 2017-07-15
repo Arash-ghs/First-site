@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	direction: 				rtl;
+}
+
+a{
+	text-decoration: 		none;
+}
+
+#banner{
+	background-image: 	 	url(../Photos/banner.jpg);
+	background-size: 		contain;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	width: 					65%;
+	height:      			180px;
+}
+
+#menu{
+	background-color: 		hsla(0,0%,80%,0.3);
+	width: 					65%;
+	height: 				45px;	
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	box-shadow: 			0px 0px 3px 1px hsla(0,2%,63%,1.00);
+	border-radius: 			3px;
+}
+
+#menu div{
+	display: 				inline-block;
+	text-align: 			center;
+	margin-right:  			13px;
+	margin-top: 			2px;
+	width: 				 	8%;	
+	height: 				90%;
+	border-radius: 			3px;
+}
+
+#menu p{
+	color: 					black;
+	margin-top:  		  	10px;
+}
+
+#menu div:hover{
+	background-color: 		hsla(0,0%,80%,0.6);
+}
+
+#main{
+	width:  				65%;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+}
+
+.title{
+	border-radius: 			2px;
+	background-color: 		hsla(0,0%,80%,0.3);
+	box-shadow: 			0 0 1px 1px hsla(0,2%,63%,1.00);
+	height: 				65px;
+	padding-top: 			2px;
+	margin-top: 			5px;
+}
+
+.title:hover{
+	background-color:  		hsla(0,0%,80%,0.6);		
+}
+
+.title h4{
+	text-align: 			right;
+	width: 					20%;
+	margin-right: 			80px;
+	margin-top: 			8px;
+}
+
+.title h5{
+	text-align: 			right;
+	width: 					20%;
+	margin-top: 			-15px;
+	margin-right: 			80px;
+}
+
+.title a{
+	float: 					left;
+	margin-top: 			-52px;
+	margin-left: 			30px;
+}
+
+
+#footer{
+	width: 					65%;
+	height: 				80px;
+	background-color: 		hsla(0,0%,80%,0.3);
+	margin-right:  			auto;
+	margin-left:  			auto;
+	box-shadow: 			0 0 3px 1px hsla(0,2%,63%,1.00);
+	border-radius: 			3px;
+	padding-top: 			25px;
+	text-align: 			center;
+	margin-top: 			5px;
+	color: 					red;
+}
+
+

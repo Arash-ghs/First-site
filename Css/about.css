@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	direction: 				rtl;
+}
+
+a{
+	text-decoration: 		none;
+}
+
+#banner{
+	background-image: 	 	url(../Photos/banner.jpg);
+	background-size: 		contain;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	width: 					65%;
+	height:      			180px;
+}
+
+#menu{
+	background-color: 		hsla(0,0%,80%,0.3);
+	width: 					65%;
+	height: 				45px;	
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	box-shadow: 			0px 0px 3px 1px hsla(0,2%,63%,1.00);
+	border-radius: 			3px;
+}
+
+#menu div{
+	display: 				inline-block;
+	text-align: 			center;
+	margin-right:  			13px;
+	margin-top: 			2px;
+	width: 				 	8%;	
+	height: 				90%;
+	border-radius: 			3px;
+}
+
+#menu p{
+	color: 					black;
+	margin-top:  		  	10px;
+}
+
+#menu div:hover{
+	background-color: 		hsla(0,0%,80%,0.6);
+}
+
+#slider{
+	background-image: 		url(../Photos/Slider.jpg);
+	background-size: 		cover;
+	width: 					65%;
+	height: 				250px;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	border-radius: 			3px;
+}
+
+#main{
+	width:  				65%;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	height: 				536px;
+}
+
+
+#about{
+	text-align: 			center;
+	color: 					green;
+}
+
+
+#footer{
+	width: 					65%;
+	height: 				80px;
+	background-color: 		hsla(0,0%,80%,0.3);
+	margin-right:  			auto;
+	margin-left:  			auto;
+	box-shadow: 			0 0 3px 1px hsla(0,2%,63%,1.00);
+	bottom: 				0;
+	border-radius: 			3px;
+	padding-top: 			28px;
+	text-align: 			center;
+	margin-top: 			6px;
+	color: 					red;
+	margin-bottom: 			0px;
+}

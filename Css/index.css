@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	direction: 				rtl;
+}
+
+a{
+	text-decoration: 		none;
+}
+
+#banner{
+	background-image: 	 	url(../Photos/banner.jpg);
+	background-size: 		contain;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	width: 					65%;
+	height:      			180px;
+}
+
+#menu{
+	background-color: 		hsla(0,0%,80%,0.3);
+	width: 					65%;
+	height: 				45px;	
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	box-shadow: 			0px 0px 3px 1px hsla(0,2%,63%,1.00);
+	border-radius: 			3px;
+}
+
+#menu div{
+	display: 				inline-block;
+	text-align: 			center;
+	margin-right:  			13px;
+	margin-top: 			2px;
+	width: 				 	8%;	
+	height: 				90%;
+	border-radius: 			3px;
+}
+
+#menu p{
+	color: 					black;
+	margin-top:  		  	10px;
+}
+
+#menu div:hover{
+	background-color: 		hsla(0,0%,80%,0.6);
+}
+
+.slider{
+	width: 					65%;
+	height: 				580px;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+	border-radius: 			3px;
+}
+
+#main{
+	width:  				65%;
+	margin-right:  			auto;
+	margin-left:  			auto;
+	margin-top: 			3px;
+}
+
+.columntitle{
+	margin-top: 			14px;
+	font-size: 				19px;
+	color: 					hsla(359,57%,49%,1.00);
+	text-decoration: 		underline;
+	text-decoration-color:  rgba(224,181,0,1.00);
+	text-align:  			center;
+}
+
+#news{
+	display:  				inline-block;
+	width: 					32%;
+	background-color: 		hsla(0,0%,80%,0.3);
+	box-shadow: 			0px 0px 3px 0.5px hsla(0,2%,63%,1.00);
+	height: 				300px;
+	float: 				 	right;
+	border-radius: 			5px;
+}
+
+.title{
+	margin-top: 			5px;
+	width: 					100%;
+	border-radius: 			2px;
+	height: 				70px;
+	padding-top: 			0.75px;
+}
+
+.title:hover{
+	background-color:  		hsla(0,0%,80%,0.6);		
+}
+
+#gallery{
+	display:  				inline-block;
+	width: 					35%;
+	background-color: 		hsla(0,0%,80%,0.3);
+	box-shadow: 			0px 0px 3px 0.5px hsla(0,2%,63%,1.00);
+	height: 				300px;
+	text-align: 			center;
+	margin-right: 			0.5%;
+	border-radius: 			5px;
+
+}
+
+
+#login{
+	display:  				inline-block;
+	width: 					32%;
+	background-color: 		hsla(0,0%,80%,0.3);
+	box-shadow: 			0px 0px 3px 0.5px hsla(0,2%,63%,1.00);
+	height: 				300px;
+	float: 					left;
+	border-radius: 			5px;
+}
+
+#footer{
+	width: 					65%;
+	height: 				110px;
+	background-color: 		hsla(0,0%,80%,0.3);
+	margin-right:  			auto;
+	margin-left:  			auto;
+	box-shadow: 			0 0 3px 1px hsla(0,2%,63%,1.00);
+	bottom: 				0;
+	border-radius: 			3px;
+	padding-top: 			25px;
+	text-align: 			center;
+	margin-top: 			6px;
+	color: 					red;
+	margin-bottom: 			5px;
+}
+
+
+
+
+
+
+
+
+
